@@ -1,4 +1,4 @@
-This is the "create-react-app" version of start_server.
+This is the "create-react-app" version of start_server. (I'm on my way to make more).
 
 This command is made to make it easier starting the npm server.
 
