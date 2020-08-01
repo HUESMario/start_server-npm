@@ -8,8 +8,7 @@ set Directory=%1
 
 rem check if there is an parameter 1
 IF [%Directory%] EQU [] (
-    echo "you can start your server from everywhere, but you need 1 Parameter: the Folder in which your create-react-app Project is Placed."
-    echo "for example: start_server C:/Hello_World"
+    echo you need to start this command like: start_server C:/Hello_World
     exit /B
 )
 
