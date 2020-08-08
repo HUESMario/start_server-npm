@@ -1,5 +1,5 @@
-rem echo off so the script isn't shown
 @echo off
+rem echo off so the script isn't shown
 
 echo Thank you for using the "create-react-app"-version of start_server.
 
