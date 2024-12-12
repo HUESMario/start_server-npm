@@ -5,10 +5,11 @@ echo moving start_server.bat to %windir%\system32 ...
 
 rem check if start_server.bat exists and move it to System32 Folder
 if exist start_server.bat (
+    echo moving Bat File...
     move start_server.bat %windir%\system32
 )
 
-rem another Check to look after the File and output an Info
+rem if File doesnt Exist inform User and end Bat
 if not exist start_server.bat (
    echo File not Found. Already moved?
    cmd /k
@@ -22,6 +23,4 @@ rem function to output that the File isn't moved for some unknown reason
 rem check for Error and if there is one go to function
 if %ErrorLevel% neq 0 goto ProcessError
 echo complete!
-
-rem To safe some Space (1mb or something like this xD)
-del Installer.bat
+echo you can safely delete this File now.
